@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import Header from './components/Header';
 
 class App extends Component {
   state = {}
-  render(){
-    return(
-      <div></div>
+  render() {
+    return (
+      <Fragment>
+        <Header />
+      </Fragment>
     );
   }
 }

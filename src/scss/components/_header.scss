@@ -1,0 +1,26 @@
+header {
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(51, 51, 51, 0.53) 50%, rgba(51, 51, 51, 0) 100%);
+  position: relative;
+  height: 150px;
+  nav {
+    background-color: transparent;
+    box-shadow: none;
+    .nav-wrapper {
+      ul {
+        li {
+          a {
+            font-weight: 300;
+            font-style: normal;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .brand-logo {
+      font-size: 20px;
+      @media #{$medium-and-up} {
+        font-size: 2rem;
+      }
+    }
+  }
+}
