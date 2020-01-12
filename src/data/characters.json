@@ -1,14 +1,50 @@
 [
     {
-        "id": 1,
-        "name": "Kanye West",
-        "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
-        "published_date": "1 month ago",
-        "category": "Entreteniment",
-        "photo": "kanye-west.jpg",
-        "votes": {
-            "positive": 123,
-            "negative": 60
-        }
+      "id": 1,
+      "name": "Kanye West",
+      "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "published_date": "1 month ago",
+      "category": "Entreteniment",
+      "photo": "kanye-west.jpg",
+      "votes": {
+        "positive": 120,
+        "negative": 60
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mark Zuckerberg",
+      "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "published_date": "1 month ago",
+      "category": "Bussines",
+      "photo": "mark.jpg",
+      "votes": {
+        "positive": 34,
+        "negative": 64
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cristina Fernández",
+      "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "published_date": "1 month ago",
+      "category": "Politics",
+      "photo": "cristina.jpg",
+      "votes": {
+        "positive": 50,
+        "negative": 50
+      }
+    },
+    {
+      "id": 4,
+      "name": "Malala Yousafzai",
+      "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "published_date": "1 month ago",
+      "category": "Entreteniment",
+      "photo": "malala.jpg",
+      "votes": {
+        "positive": 60,
+        "negative": 40
+      }
     }
-]
+  ]
