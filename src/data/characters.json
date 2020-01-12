@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Kanye West",
+        "bio": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "published_date": "1 month ago",
+        "category": "Entreteniment",
+        "photo": "kanye-west.jpg",
+        "votes": {
+            "positive": 123,
+            "negative": 60
+        }
+    }
+]

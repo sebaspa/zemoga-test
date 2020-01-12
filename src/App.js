@@ -4,9 +4,28 @@ import Banner from './components/Banner';
 import Message from './components/Message';
 import SendName from './components/SendName';
 import Footer from './components/Footer';
+import ListCharacters from './components/ListCharacters';
 
 class App extends Component {
-  state = {}
+  state = {
+    characters: []
+  };
+
+  componentDidMount() {
+    this.getCharacters();
+  }
+
+  getCharacters = async () => {
+    const url = 'http://www.json-generator.com/api/json/get/bViiDGizWW?indent=2';
+    console.log(url);
+    const resp = await fetch(url);
+    const characters = await resp.json();
+
+    this.setState({
+      characters: characters
+    })
+  };
+
   render() {
     return (
       <Fragment>
@@ -15,6 +34,9 @@ class App extends Component {
           days="22"
         />
         <Message />
+        <ListCharacters
+          characters={this.state.characters}
+        />
         <SendName />
         <Footer />
       </Fragment>
