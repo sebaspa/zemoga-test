@@ -2,6 +2,7 @@ header {
   background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(51, 51, 51, 0.53) 50%, rgba(51, 51, 51, 0) 100%);
   position: relative;
   height: 150px;
+  z-index: 2;
   nav {
     background-color: transparent;
     box-shadow: none;
