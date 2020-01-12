@@ -24,6 +24,9 @@ body {
 @import "node_modules/materialize-css/sass/components/navbar";
 @import "node_modules/materialize-css/sass/components/sidenav";
 
+//Global
+@import "scss/base/global";
+
 //Components
 @import "scss/components/header";
 @import "scss/components/banner";

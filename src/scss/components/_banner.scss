@@ -1,0 +1,137 @@
+.banner {
+  width: 100%;
+  height: 740px;
+  background: url("../../images/papa.jpg") no-repeat top center;
+  background-size: cover;
+  margin-top: -150px;
+
+  .container {
+    height: 100%;
+
+    .row {
+      height: calc(100% - 50px);
+      .col {
+        height: calc(100% - 50px);
+        .cont-banner {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+
+          .cont-desc {
+            .cont-text {
+              background: rgba(51, 51, 51, 0.45);
+              backdrop-filter: blur(6px);
+              padding: 30px 22px;
+
+              @media #{$medium-and-up} {
+                padding: 40px 32px;
+              }
+
+              p {
+                margin: 0;
+              }
+
+              .title {
+                font-size: 34px;
+                margin-bottom: 20px;
+                @media #{$medium-and-up} {
+                  font-size: 54px;
+                }
+                span {
+                  display: block;
+                  font-size: 14px;
+                }
+              }
+
+              .text {
+                font-size: 18px;
+              }
+
+              .view-more {
+                a {
+                  font-size: 14px;
+                  text-decoration: underline;
+                  margin: 20px 0 40px 0;
+                  display: block;
+                  img {
+                    margin-right: 6px;
+                  }
+                }
+              }
+            }
+          }
+
+          .cont-thumbs {
+            .col {
+              padding: 0;
+
+              .cont-thumb {
+                cursor: pointer;
+                height: 80px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                  font-size: 30px;
+                }
+              }
+              .cont-thumb-up {
+                background-color: rgba(color("cyan", "base"), 0.9);
+              }
+              .cont-thumb-up:hover {
+                background-color: rgba(color("cyan", "darken-1"), 0.9);
+              }
+              .cont-thumb-down {
+                background-color: rgba(color("amber", "base"), 0.9);
+              }
+              .cont-thumb-down:hover {
+                background-color: rgba(color("amber", "darken-1"), 0.9);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .closing {
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+
+    .cont-closing {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      div {
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        p {
+          width: 100%;
+          margin: 0;
+        }
+      }
+      .cont-txt {
+        text-align: right;
+        background-color: rgba(color("grey", "darken-1"), 0.3);
+        font-size: 12px;
+        @media #{$medium-and-up} {
+          font-size: 18px;
+        }
+      }
+      .cont-days {
+        background-color: rgba(white, 0.7);
+        p {
+          font-size: 20px;
+          @media #{$medium-and-up} {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
