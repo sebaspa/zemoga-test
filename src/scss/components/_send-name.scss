@@ -1,0 +1,39 @@
+.send-name {
+  p {
+    margin: 0;
+  }
+
+  .cont-send-name {
+    background: url("../../images/bg-sendname.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+
+    .col {
+      height: 100%;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    }
+
+    .cont-txt {
+      font-size: 20px;
+
+      @media #{$large-and-up} {
+        font-size: 25px;
+      }
+    }
+
+    .cont-btn {
+      .btn {
+        display: block;
+        width: 100%;
+        border: 2px solid color("grey", "darken-4");
+        padding: 12px 30px;
+      }
+    }
+  }
+}
