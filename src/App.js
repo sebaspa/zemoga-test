@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Message from './components/Message';
 import SendName from './components/SendName';
+import Footer from './components/Footer';
 
 class App extends Component {
   state = {}
@@ -15,6 +16,7 @@ class App extends Component {
         />
         <Message />
         <SendName />
+        <Footer />
       </Fragment>
     );
   }
