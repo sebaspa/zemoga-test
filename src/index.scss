@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-html,
-body {
-  font-family: "Lato", sans-serif;
-}
-
 //Materialize
 
 // Color
@@ -30,3 +25,4 @@ body {
 //Components
 @import "scss/components/header";
 @import "scss/components/banner";
+@import "scss/components/message";

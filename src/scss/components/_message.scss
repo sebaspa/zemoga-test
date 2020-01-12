@@ -1,0 +1,34 @@
+.main-message {
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px;
+  background-color: color("grey", "lighten-3");
+
+  p {
+    margin: 0;
+  }
+
+  .cont-txt-1 {
+    margin-bottom: 20px;
+
+    @media #{$large-and-up} {
+      margin-bottom: 0px;
+    }
+    .title {
+      font-size: 19px;
+      font-weight: 300;
+    }
+
+    .subtitle {
+      font-size: 34px;
+      font-weight: 700;
+    }
+  }
+
+  .cont-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+}
