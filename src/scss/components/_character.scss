@@ -50,6 +50,18 @@
           padding: 0 0 0 40px;
         }
 
+        .btn {
+          cursor: pointer;
+          font-size: 12px;
+          color: white;
+          display: block;
+          border: 1px solid white;
+          text-align: center;
+          padding: 10px 20px;
+          margin-left: 5px;
+          background: transparent;
+        }
+
         .cont-bio {
           p {
             font-size: 14px;
@@ -67,20 +79,10 @@
           display: flex;
           margin: 20px 0 30px 0;
 
-          .btn {
-            font-size: 12px;
-            color: white;
-            display: block;
-            border: 1px solid white;
-            text-align: center;
-            padding: 10px 20px;
-            margin-left: 5px;
-            background: transparent;
-          }
-
           .thumb-opc {
             display: flex;
             .action-thumb {
+              cursor: pointer;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -94,6 +96,10 @@
               border: solid 1px white;
             }
           }
+        }
+
+        .cont-vote-again {
+          margin: 20px 0 30px 0;
         }
       }
 

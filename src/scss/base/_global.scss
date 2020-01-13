@@ -38,3 +38,12 @@ body {
 .cont-thumb-down:hover {
   background-color: rgba(color("amber", "darken-1"), 0.9);
 }
+
+//Displays
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
